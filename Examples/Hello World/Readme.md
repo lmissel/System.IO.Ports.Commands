@@ -11,7 +11,7 @@ Import-Module System.IO.Ports.Commands
 New-SerialPort -portName COM3
 
 # Schreibe Daten
-Write-SerialPort -data "Hello World!"
+Write-SerialPort -Text "Hello World!"
 
 # Schließen des SerialPorts COM3
 Close-SerialPort

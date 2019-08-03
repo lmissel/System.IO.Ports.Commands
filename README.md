@@ -20,7 +20,7 @@ Import-Module Microsoft.SerialPort.Commands
 New-SerialPort -portName COM3
 
 # Schreibe Daten
-Write-SerialPort -data "Hello World from script!"
+Write-SerialPort -Text "Hello World from script!"
 
 # Ausgabe von empfangenen Daten
 Read-SerialPort

@@ -1,10 +1,10 @@
-# Microsoft.SerialPort.Commands
+# System.IO.Ports.Commands
 
 Dieses Modul stellt serielle Anschlüsse als Ressource dar, und ermöglicht es schnell und einfach Daten über den SerialPort zu versenden und zu empfangen. Ebenso ist ein SerialPort-Monitor integriert, sodass man die empfangenen Daten über die PowerShell Console ausgegeben bekommt, sobald DataReceived-Ereignis eingetreten ist.
 
 ## Detaillierte Beschreibung
 
-Das Module Microsoft.SerialPort.Commands enthält Cmdlets und Klassen zum Steuern von seriellen Anschlüssen. Die wichtigste Klasse, SerialPort, bietet ein Framework für synchrone und ereignisgesteuerte E/A-Vorgänge, Zugriff auf Pin- und Unterbrechungszustände sowie Zugriff auf die Treibereigenschaften für den seriellen Anschluss. Mit dieser Klasse können Stream-Objekte umschlossen werden, sodass Klassen, die Streams verwenden, auf den seriellen Anschluss zugreifen können.
+Das Module System.IO.Ports.Commands enthält Cmdlets und Klassen zum Steuern von seriellen Anschlüssen. Die wichtigste Klasse, SerialPort, bietet ein Framework für synchrone und ereignisgesteuerte E/A-Vorgänge, Zugriff auf Pin- und Unterbrechungszustände sowie Zugriff auf die Treibereigenschaften für den seriellen Anschluss. Mit dieser Klasse können Stream-Objekte umschlossen werden, sodass Klassen, die Streams verwenden, auf den seriellen Anschluss zugreifen können.
 
 Weitere Informationen: <https://docs.microsoft.com/de-de/dotnet/api/system.io.ports.serialport?view=netframework-4.8>
 

@@ -1,5 +1,5 @@
-﻿---
-external help file: System.IO.Ports.Commands-help.xml
+---
+External help file: System.IO.Ports.Commands-help.xml
 Module Name: System.IO.Ports.Commands
 online version: https://github.com/lmissel/System.IO.Ports.Commands
 schema: 2.0.0

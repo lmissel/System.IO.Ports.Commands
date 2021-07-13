@@ -1,4 +1,4 @@
-﻿---
+---
 Module Name: System.IO.Ports.Commands
 Module Guid: db8afca9-9484-4212-bc58-0989c2050b39
 Download Help Link: {{ Update Download Link }}

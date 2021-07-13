@@ -1,11 +1,11 @@
 # Laden des PowerShell Moduls
 Import-Module System.IO.Ports.Commands
 
-# �ffnen des SerialPorts COM3
+# Öffnen des SerialPorts COM3
 New-SerialPort -portName COM3
 
 # Schreibe Daten
 Write-SerialPort "Hello World!"
 
-# Schließen des SerialPorts COM3
+# SchlieÃŸen des SerialPorts COM3
 Close-SerialPort

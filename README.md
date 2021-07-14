@@ -36,7 +36,7 @@ $SerialPort = Open-SerialPort -portName COM3
 # Write data to serialport
 Write-SerialPort -InputObject $SerialPort -Text "Hello World!"
 
-# Wait 3 seconds for a response
+# Wait max. 3 seconds for a response
 Wait-DataReceivedEvent -InputObject $SerialPort -Timeout 3
 
 # Read all existing data from serialport

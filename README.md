@@ -7,11 +7,17 @@ The `System.IO.Ports.Commands` module contains cmdlets for controlling serial po
 
 ## Minimum Requirements
 
-The module requires .NET and PowerShell version 3.0.
+The module requires .NET and PowerShell. The following versions are supported:
+
+|Product|Version|
+|---|---|
+|.NET Framework|2.0, 3.0, 3.5, 4.0, 4.5, 4.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2, 4.8|
+|.NET Platform Extensions|	2.1, 2.2, 3.0, 3.1, 5.0, 6.0 Preview 3|
+|PowerShell|3.0 or higher|
 
 ## Installation
 
-To install and run this module, copy the `module` folder in one of the appropriate PowerShell paths and use Import-Module.
+To install and run this module, copy the folder with the name `System.IO.Ports.Commands` in one of the appropriate PowerShell paths and use `Import-Module -name System.IO.Ports.Commands`.
 
 The paths where you can install this module are in the `$env:PSModulePath` global variable. For example, a common path to store a module on a system would be `%SystemRoot%/users/<user>/Documents/PowerShell/Modules/<moduleName>`. Be sure to create a directory for this module that uses the same name `System.IO.Ports.Commands` as the script module. If you did not save this module in one of these paths, you must specify the location of the module in the Import-Module command. Otherwise, PowerShell would not be able to find the module.
 
@@ -50,6 +56,15 @@ Close-SerialPort -InputObject $SerialPort
 Output:
 Hello back!
 ```
+## Changelog
+
+|Version|State|Comment|
+|---|---|---|
+|1.0.0.0|done|Initial module|
+|1.1.0.0|in Progress|New structure and division of the module and functions, multilingualism, bug fixes as well as enhancements.|
+
+>[!Important]
+>Some functions may have been renamed or given additional functionality. Please check your scripts for functionality and correct them if necessary.
 
 ## Notes
 The module uses enumerations and classes of the namepace [System.IO.Ports].

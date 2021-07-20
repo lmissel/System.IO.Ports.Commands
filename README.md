@@ -65,8 +65,8 @@ Hello back!
 |1.1.1.0|in Progress|Adaptation to the new internal standard of a script module.|
 
 ### ToDo
-[X] Adaptation to the new internal standard of a script module.
-[ ] The creation of a german external help file.
+- [X] Adaptation to the new internal standard of a script module.
+- [ ] The creation of a german external help file.
 
 >[!Important]
 >Some functions may have been renamed or given additional functionality. Please check your scripts for functionality and correct them if necessary.

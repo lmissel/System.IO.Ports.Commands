@@ -61,7 +61,11 @@ Hello back!
 |Version|State|Comment|
 |---|---|---|
 |1.0.0.0|done|Initial module|
-|1.1.0.0|in Progress|New structure and division of the module and functions, multilingualism, bug fixes as well as enhancements.|
+|1.1.0.0|done|New structure and division of the module and functions, multilingualism, bug fixes as well as enhancements.|
+|1.1.1.0|in Progress|Adaptation to the new internal standard of a script module.|
+
+### ToDo
+[] The creation of a german external help file.
 
 >[!Important]
 >Some functions may have been renamed or given additional functionality. Please check your scripts for functionality and correct them if necessary.
